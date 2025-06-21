@@ -5,8 +5,8 @@
 [build.environment]
   NODE_VERSION = "20"
 
-# Optional: Redirects for client-side routing (e.g., React Router)
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+publish = "out"
